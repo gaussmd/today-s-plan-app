@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+    font-family: monospace;
+}
+.content{
+    background-color: lightgreen;
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 22px;
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0.3);
+    border-radius: 20px;
+}
+.header{
+    background-color: blueviolet;
+    color: aliceblue;
+    margin: 10px 80px;
+    border-radius: 5px;
+}
+.header:hover{
+    transition: 100ms all ease-in;
+    box-shadow: 0 0 4px 0 rgb(0, 0, 0.3);
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    border: 0;
+    font-size: 17px;
+    width: 20%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
